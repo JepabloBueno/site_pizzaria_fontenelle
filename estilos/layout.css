@@ -17,11 +17,13 @@ CINZA CLARO: #F7F7F7
 }
 
 header {
-    background-image: url(../_imagens/secao08-background-capa.jpg);
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,3),rgba(0,0,0,0)), url(../_imagens/secao08-background-capa.jpg);
     background-size: cover;
     background-position: center center;
     width: 100%;
     height: 100vh;
+    border-top: 5px solid #078C31;
 }
 
 nav {
@@ -84,6 +86,15 @@ nav ul#direita ion-icon#icon_user {
     height: 45px;
     margin-top: -11px;
     margin-left: 20px;
+}
+
+header div#chamada {
+    position: absolute;
+    width: 50%;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 

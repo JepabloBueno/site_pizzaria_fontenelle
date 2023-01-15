@@ -44,3 +44,26 @@ h2 {
 p, lu, a {
     font-family: 'open sans', sans-serif;
 }
+
+/* ELEMENTOS DO HEADER*/
+
+header div#chamada h1 {
+    color: white;
+    text-shadow: 4px 6px 12px #000;
+}
+
+header div#chamada h4 {
+    font-size: 250%;
+    text-shadow: 4px 6px 12px #000;
+    margin-bottom: 55px;
+}
+
+header div#chamada a {
+    font-size: 110%;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    background: linear-gradient(rgba(7,140,49,55)0%, rgba(6,89,2,35)40%, rgba(6,89,2,35)100%);
+    padding: 20px 80px;
+    border-radius: 50px;
+}

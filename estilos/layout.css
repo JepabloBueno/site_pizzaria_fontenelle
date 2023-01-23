@@ -98,6 +98,34 @@ header div#chamada {
     text-align: center;
 }
 
+/*                             */
+/*    SEÇÃO DOMINGO PERFEITO   */
+/*                             */
+
+section#domingo-perfeito {
+    width: 100%;
+    padding: 40px 0 80px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+div#domingo-perfeito-esquerda, div#domingo-perfeito-direita {
+    position: relative;
+    width: 15%;
+    
+}
+
+div#domingo-perfeito-centro {
+    width: 65%;
+}
+
+div#pontos-chave-mestre {
+    
+}
+
+
 
 
 

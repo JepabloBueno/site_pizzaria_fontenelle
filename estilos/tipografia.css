@@ -41,8 +41,25 @@ h2 {
     font-size: 400%;
 }
 
-p, lu, a {
+h4 {
+    font-size: 150%;
+    font-weight: 150;
+    padding: 20px 0px;
+}
+
+p, li, a {
     font-family: 'open sans', sans-serif;
+    color: #1b1b1b;
+}
+
+p.destaque {
+    font-size: 120%;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #222222;
+
+    text-align: center;
+
 }
 
 /* ELEMENTOS DO HEADER*/
@@ -66,4 +83,24 @@ header div#chamada a {
     background: linear-gradient(rgba(7,140,49,55)0%, rgba(6,89,2,35)40%, rgba(6,89,2,35)100%);
     padding: 20px 80px;
     border-radius: 50px;
+}
+
+/*                             */
+/*    SEÇÃO DOMINGO PERFEITO   */
+/*                             */
+
+div.pontos-chave h4 {
+    color: #404040;
+}
+
+div.pontos-chave h4:after {
+    display: block;
+    background-color: #078C31;
+
+    height: 5px;
+    width: 30%;
+    margin: 20px auto 10px;
+
+    content: "  ";
+
 }
